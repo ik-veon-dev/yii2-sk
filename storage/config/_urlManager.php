@@ -1,7 +1,4 @@
 <?php
-/**
- * @author Eugene Terentev <eugene@terentev.net>
- */
 return [
     'class'=>'yii\web\UrlManager',
     'enablePrettyUrl'=>true,

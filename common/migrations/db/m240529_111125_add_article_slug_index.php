@@ -5,7 +5,7 @@ use yii\db\Migration;
 /**
  * Class m190130_155645_add_article_slug_index
  */
-class m190130_155645_add_article_slug_index extends Migration
+class m240529_111125_add_article_slug_index extends Migration
 {
     /**
      * {@inheritdoc}

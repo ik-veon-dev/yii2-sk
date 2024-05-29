@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m140712_123329_widget_carousel extends Migration
+class m240529_111117_widget_carousel extends Migration
 {
     /**
      * @return bool|void
@@ -23,7 +23,14 @@ class m140712_123329_widget_carousel extends Migration
             'asset_url' => $this->string(1024),
             'type' => $this->string(),
             'url' => $this->string(1024),
-            'caption' => $this->string(1024),
+            'caption' => $this->string(256),
+            'caption_en' => $this->string(256),
+            'caption_ru' => $this->string(256),
+            'caption_uz' => $this->string(256),
+            'description' => $this->string(1024),
+            'description_en' => $this->string(1024),
+            'description_ru' => $this->string(1024),
+            'description_uz' => $this->string(1024),
             'status' => $this->smallInteger()->notNull()->defaultValue(0),
             'order' => $this->integer()->defaultValue(0),
             'created_at' => $this->integer(),

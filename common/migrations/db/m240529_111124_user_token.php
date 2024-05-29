@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m160203_095604_user_token extends Migration
+class m240529_111124_user_token extends Migration
 {
     /**
      * @return bool|void

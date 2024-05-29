@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m140703_123803_article extends Migration
+class m240529_111113_article extends Migration
 {
     /**
      * @return bool|void
@@ -13,7 +13,13 @@ class m140703_123803_article extends Migration
             'id' => $this->primaryKey(),
             'slug' => $this->string(1024)->notNull(),
             'title' => $this->string(512)->notNull(),
+            'title_en' => $this->string(512)->notNull(),
+            'title_ru' => $this->string(512)->notNull(),
+            'title_uz' => $this->string(512)->notNull(),
             'body' => $this->text(),
+            'body_en' => $this->text(),
+            'body_ru' => $this->text(),
+            'body_uz' => $this->text(),
             'parent_id' => $this->integer(),
             'status' => $this->smallInteger()->notNull()->defaultValue(0),
             'created_at' => $this->integer(),
@@ -24,7 +30,14 @@ class m140703_123803_article extends Migration
             'id' => $this->primaryKey(),
             'slug' => $this->string(1024)->notNull(),
             'title' => $this->string(512)->notNull(),
+            'title_en' => $this->string(512)->notNull(),
+            'title_ru' => $this->string(512)->notNull(),
+            'title_uz' => $this->string(512)->notNull(),
             'body' => $this->text()->notNull(),
+            'body_en' => $this->text()->notNull(),
+            'body_ru' => $this->text()->notNull(),
+            'body_uz' => $this->text()->notNull(),
+            'is_main' => $this->smallInteger()->notNull()->defaultValue(0),
             'view' => $this->string(),
             'category_id' => $this->integer(),
             'thumbnail_base_url' => $this->string(1024),

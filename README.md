@@ -8,20 +8,6 @@
 
 <!-- /BADGES -->
 
-# Stand with Ukraine!
-
----
-<p align="center">
-   <img align="center" src="https://github.blog/wp-content/uploads/2022/03/1200x630-GitHub-1.png?resize=320%2C240">
-</p>
-
-While Russia is destroying my home and my country, killing my friends and neighbors - any russian company, organization, or citizen, who do nothing about it, 
-is prohibited from using this package.
-For others - please, pray for us, share information about war crimes Russia is conducting in Ukraine, do everything you can
-to urge your governments to be on the right side of history.
-Ukraine will prevail! Good triumph over evil! Русский военный корабль, иди нах#й!
-
----
 This is Yii2 start application template.
 
 It was created and developing as a fast start for building an advanced sites based on Yii2.
@@ -29,14 +15,16 @@ It was created and developing as a fast start for building an advanced sites bas
 It covers typical use cases for a new project and will help you not to waste your time doing the same work in every project
 
 ## Before you start
+
 Please, consider helping project via [contributions](https://github.com/yii2-starter-kit/yii2-starter-kit/issues) or [donations](#donations).
 
 ## TABLE OF CONTENTS
+
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](docs/installation.md)
-    - [Manual installation](docs/installation.md#manual-installation)
-    - [Docker installation](docs/installation.md#docker-installation)
+  - [Manual installation](docs/installation.md#manual-installation)
+  - [Docker installation](docs/installation.md#docker-installation)
 - [Components documentation](docs/components.md)
 - [Console commands](docs/console.md)
 - [Testing](docs/testing.md)
@@ -45,19 +33,22 @@ Please, consider helping project via [contributions](https://github.com/yii2-sta
 - [Have any questions?](#have-any-questions)
 
 ## Quickstart
+
 1. [Install taskctl](https://getcomposer.org)
 2. [Install docker](https://docs.docker.com/install/)
 3. [Install docker-compose](https://docs.docker.com/compose/install/)
 4. Run
-    ```bash
-    composer create-project yii2-starter-kit/yii2-starter-kit myproject.com --ignore-platform-reqs
-    cd myproject.com
-    taskctl start
-    ```
+   ```bash
+   composer create-project yii2-starter-kit/yii2-starter-kit myproject.com --ignore-platform-reqs
+   cd myproject.com
+   taskctl start
+   ```
 5. Go to [http://yii2-starter-kit.localhost](http://yii2-starter-kit.localhost)
 
 ## FEATURES
+
 ### Admin backend
+
 - Beautiful and open source dashboard theme for backend [AdminLTE 3](https://adminlte.io/themes/v3/)
 - Content management components: articles, categories, static pages, editable menu, editable carousels, text blocks
 - Settings editor. Application settings form (based on KeyStorage component)
@@ -68,25 +59,24 @@ Please, consider helping project via [contributions](https://github.com/yii2-sta
 - System monitoring
 
 ### Development tasks
+
 To list all available development tasks follow these steps:
+
 1. Install [taskctl](https://github.com/taskctl/taskctl) task runner
 2. Run ``taskctl``
 
 ### I18N
+
 - Built-in translations:
-    - English
-    - Spanish
-    - Russian
-    - Ukrainian
-    - Chinese
-    - Vietnamese
-    - Polish
-    - Portuguese (Brazil)
-    - Indonesian (Bahasa)
+  - English
+  - Spanish
+  - Russian
+  - Uzbek
 - Language switcher, built-in behavior to choose locale based on browser preferred language
 - Backend translations manager
 
 ### Users
+
 - Sign in
 - Sign up
 - Profile editing(avatar, locale, personal data)
@@ -96,6 +86,7 @@ To list all available development tasks follow these steps:
 - RBAC migrations support
 
 ### Development
+
 - Ready-to-use Docker-based stack (php, nginx, mysql, mailcatcher)
 - .env support
 - [Webpack](https://webpack.js.org/) build configuration
@@ -109,6 +100,7 @@ To list all available development tasks follow these steps:
 - [Some useful shortcuts](https://github.com/yii2-starter-kit/yii2-starter-kit/blob/master/common/helpers.php)
 
 ### Other
+
 - Useful behaviors (GlobalAccessBehavior, CacheInvalidateBehavior)
 - Maintenance mode support ([more](#maintenance-mode))
 - [Aceeditor widget](https://github.com/trntv/yii2-aceeditor)
@@ -123,40 +115,46 @@ To list all available development tasks follow these steps:
 - [Swagger](https://swagger.io/) for API docs.
 
 ## DEMO
-- Frontend: [https://yii2-starter-kit.herokuapp.com](https://yii2-starter-kit.herokuapp.com)
-- Backend: [https://yii2-starter-kit.herokuapp.com/backend](https://yii2-starter-kit.herokuapp.com/backend)
+
+- Frontend: [https://sk.eh5.ru](https://yii2-starter-kit.herokuapp.com)
+- Backend: [https://](https://yii2-starter-kit.herokuapp.com/backend)[sk.eh5.ru/backend](https://yii2-starter-kit.herokuapp.com)
 
 `administrator` role account
+
 ```
 Login: webmaster
 Password: webmaster
 ```
 
 `manager` role account
+
 ```
 Login: manager
 Password: manager
 ```
 
 `user` role account
+
 ```
 Login: user
 Password: user
 ```
 
 ## How to contribute?
+
 You can contribute in any way you want. Any help appreciated, but most of all i need help with docs (^_^)
 
 ## Have any questions?
-Mail to [victor@vgr.cl](mailto:victor@vgr.cl) or [yevhen.terentiev@gmail.com](mailto:yevhen.terentiev@gmai.com)
+
+Mail to [info@eh5.ru](mailto:victor@vgr.cl)
 
 ## READ MORE
+
 - [Yii2](https://github.com/yiisoft/yii2/tree/master/docs)
 - [Docker](https://docs.docker.com/get-started/)
 
-
 ### NOTE
+
 This template was created mostly for developers NOT for end users.
 This is a point where you can start your application, rather than creating it from scratch.
 Good luck!
-

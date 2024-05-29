@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m150414_195800_timeline_event extends Migration
+class m240529_111121_timeline_event extends Migration
 {
     /**
      * @return bool|void

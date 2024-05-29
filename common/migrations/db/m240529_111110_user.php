@@ -3,7 +3,7 @@
 use common\models\User;
 use yii\db\Migration;
 
-class m140703_123000_user extends Migration
+class m240529_111110_user extends Migration
 {
     /**
      * @return bool|void
@@ -19,6 +19,7 @@ class m140703_123000_user extends Migration
             'oauth_client' => $this->string(),
             'oauth_client_user_id' => $this->string(),
             'email' => $this->string()->notNull(),
+            'phone' => $this->string(),
             'status' => $this->smallInteger()->notNull()->defaultValue(User::STATUS_ACTIVE),
             'created_at' => $this->integer(),
             'updated_at' => $this->integer(),

@@ -2,13 +2,14 @@
 
 use yii\db\Migration;
 
-class m150929_074021_article_attachment_order extends Migration
+class m240529_111123_article_article_attachment_order extends Migration
 {
     /**
      * @return bool|void
      */
     public function up()
     {
+        $this->addColumn('{{%article}}', 'order', $this->integer());
         $this->addColumn('{{%article_attachment}}', 'order', $this->integer());
     }
 
@@ -17,6 +18,7 @@ class m150929_074021_article_attachment_order extends Migration
      */
     public function down()
     {
+        $this->dropColumn('{{%article}}', 'order');
         $this->dropColumn('{{%article_attachment}}', 'order');
     }
 }

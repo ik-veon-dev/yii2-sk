@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m150318_213934_file_storage_item extends Migration
+class m240529_111120_file_storage_item extends Migration
 {
     /**
      * @return bool|void

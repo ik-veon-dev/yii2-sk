@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m141012_101932_i18n_tables extends Migration
+class m240529_111119_i18n_tables extends Migration
 {
     /**
      * @return bool|void

@@ -1,10 +1,10 @@
 <?php
 $config = [
-    'name' => 'Yii2 Starter Kit',
+    'name' => 'Yii2 SK',
     'vendorPath' => __DIR__ . '/../../vendor',
     'extensions' => require(__DIR__ . '/../../vendor/yiisoft/extensions.php'),
-    'sourceLanguage' => 'en-US',
-    'language' => 'en-US',
+    'sourceLanguage' => 'en-GB',
+    'language' => 'ru-RU',
     'bootstrap' => ['log'],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -85,6 +85,7 @@ $config = [
 
         'i18n' => [
             'translations' => [
+                /* Uncomment this code to use PhpMessageSource
                 '*' => [
                     'class' => yii\i18n\PhpMessageSource::class,
                     'basePath' => '@common/messages',
@@ -95,7 +96,7 @@ $config = [
                     ],
                     'on missingTranslation' => [backend\modules\translation\Module::class, 'missingTranslation'],
                 ],
-                /* Uncomment this code to use DbMessageSource
+                */
                 '*'=> [
                     'class' => yii\i18n\DbMessageSource::class,
                     'sourceMessageTable'=>'{{%i18n_source_message}}',
@@ -104,7 +105,6 @@ $config = [
                     'cachingDuration' => 3600,
                     'on missingTranslation' => [backend\modules\translation\Module::class, 'missingTranslation']
                 ],
-                */
             ],
         ],
 
@@ -156,16 +156,10 @@ $config = [
         'adminEmail' => env('ADMIN_EMAIL'),
         'robotEmail' => env('ROBOT_EMAIL'),
         'availableLocales' => [
+            'en-GB' => 'English (GB)',
             'en-US' => 'English (US)',
             'ru-RU' => 'Русский (РФ)',
-            'uk-UA' => 'Українська (Україна)',
-            'es' => 'Español',
-            'fr' => 'Français',
-            'vi' => 'Tiếng Việt',
-            'zh-CN' => '简体中文',
-            'pl-PL' => 'Polski (PL)',
-            'id-ID' => 'Indonesian (Bahasa)',
-            'hu-HU' => 'Magyar',
+            'uz-UZ' => 'O`zbekcha (O`Z)',
         ],
         'bsVersion' => '4.x', // bootstrap version
     ],
